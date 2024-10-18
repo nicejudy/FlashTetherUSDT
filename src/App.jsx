@@ -170,26 +170,6 @@ const App = () => {
           </div>
         </div>
 
-        <div className="mt-12 animate-fade-in">
-          <h2 className="text-3xl font-bold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-            Featured Apps
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <AdCard
-              title="Crypto Tools Pro"
-              description="Advanced crypto trading and analysis tools to supercharge your strategy."
-              link="https://scripters.shop/"
-              icon={DollarSign}
-            />
-            <AdCard
-              title="FlashCipher Guard"
-              description="Next-gen security solutions to fortify your crypto assets."
-              link="https://flashcipher.shop/"
-              icon={AlertCircle}
-            />
-          </div>
-        </div>
-
         <div className="mt-12 text-center text-sm text-gray-400 animate-fade-in">
           <p>
             Always verify transaction details before sending. For support, contact our team.
